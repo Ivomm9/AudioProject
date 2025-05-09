@@ -360,6 +360,7 @@
 "Assets/3rdPerson+Fly/Scripts/PlayerScripts/FlyBehaviour.cs"
 "Assets/3rdPerson+Fly/Scripts/PlayerScripts/MoveBehaviour.cs"
 "Assets/3rdPerson+Fly/Scripts/Readme.cs"
+"Assets/Scripts/Surface.cs"
 -langversion:9.0
 /deterministic
 /optimize+

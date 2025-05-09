@@ -1,5 +1,121 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Serialization;
+using static Unity.VisualScripting.Member;
+
+public enum Surfaces
+{
+    GRASS,
+    SAND,
+    ROCK,
+    WOOD,
+	WATER,
+	MUD
+}
+
+// MoveBehaviour inherits from GenericBehaviour. This class corresponds to basic walk and run behaviour, it is the default behaviour.
+[Serializable]
+public class FootstepCollection
+{
+    [Serializable]
+    public class Audio
+    {
+        public AudioClip clip;
+        [Range(0, 1)] public float volume;
+        [SerializeField, Range(0, 1)] public float m_VolumeVariation;
+    }
+
+    [Header("Grass")]
+    [SerializeField] private Audio[] m_GrassFootsteps;
+    [SerializeField] private Audio[] m_GrassLanding;
+
+    [Header("Sand")]
+    [SerializeField] private Audio[] m_SandFootsteps;
+    [SerializeField] private Audio[] m_SandLanding;
+
+    [Header("Rock")]
+    [SerializeField] private Audio[] m_RockFootsteps;
+    [SerializeField] private Audio[] m_RockLanding;
+
+    [Header("Wood")]
+    [SerializeField] private Audio[] m_WoodFootsteps;
+    [SerializeField] private Audio[] m_WoodLanding;
+
+    [Header("Water")]
+    [SerializeField] private Audio[] m_WaterFootsteps;
+    [SerializeField] private Audio[] m_WaterLanding;
+
+    [Header("Mud")]
+    [SerializeField] private Audio[] m_MudFootsteps;
+    [SerializeField] private Audio[] m_MudLanding;
+
+
+    [Header("Config")]
+    [SerializeField, Range(1, 2)] private float m_PitchVariation;
+
+
+    public static Surfaces surface;
+
+    [SerializeField, Range(0, 1)] private float m_Volume = 1;
+    public Audio GetFootstep()
+    {
+        Audio clip = null;
+
+        switch (surface)
+        {
+            case Surfaces.GRASS:
+                clip = m_GrassFootsteps[UnityEngine.Random.Range(0, m_GrassFootsteps.Length)];
+                break;
+            case Surfaces.SAND:
+                clip = m_SandFootsteps[UnityEngine.Random.Range(0, m_SandFootsteps.Length)];
+                break;
+            case Surfaces.ROCK:
+                clip = m_RockFootsteps[UnityEngine.Random.Range(0, m_RockFootsteps.Length)];
+                break;
+            case Surfaces.WOOD:
+                clip = m_WoodFootsteps[UnityEngine.Random.Range(0, m_WoodFootsteps.Length)];
+                break;
+            case Surfaces.WATER:
+                clip = m_WaterFootsteps[UnityEngine.Random.Range(0, m_WaterFootsteps.Length)];
+                break;
+            case Surfaces.MUD:
+                clip = m_MudFootsteps[UnityEngine.Random.Range(0, m_MudFootsteps.Length)];
+                break;
+        }
+        return clip;
+    }
+
+    public Audio GetLanding()
+    {
+        Audio clip = null;
+        switch (surface)
+        {
+            case Surfaces.GRASS:
+                clip = m_GrassLanding[UnityEngine.Random.Range(0, m_GrassLanding.Length)];
+                break;
+            case Surfaces.SAND:
+                clip = m_SandLanding[UnityEngine.Random.Range(0, m_SandLanding.Length)];
+                break;
+            case Surfaces.ROCK:
+                clip = m_RockLanding[UnityEngine.Random.Range(0, m_RockLanding.Length)];
+                break;
+            case Surfaces.WOOD:
+                clip = m_WoodLanding[UnityEngine.Random.Range(0, m_WoodLanding.Length)];
+                break;
+        }
+        return clip;
+    }
+
+    public float PitchVariation()
+    {
+        return UnityEngine.Random.Range(1 / m_PitchVariation, m_PitchVariation);
+    }
+
+    public float VolumeVariation(Audio audio)
+    {
+        return audio.volume + UnityEngine.Random.Range(-audio.m_VolumeVariation, audio.m_VolumeVariation);
+    }
+}
 
 // MoveBehaviour inherits from GenericBehaviour. This class corresponds to basic walk and run behaviour, it is the default behaviour.
 public class MoveBehaviour : GenericBehaviour
@@ -18,8 +134,15 @@ public class MoveBehaviour : GenericBehaviour
 	private bool jump;                              // Boolean to determine whether or not the player started a jump.
 	private bool isColliding;                       // Boolean to determine if the player has collided with an obstacle.
 
-	// Start is always called after any Awake functions.
-	void Start()
+	[SerializeField]
+    private AudioSource m_Source;
+
+    [SerializeField] private FootstepCollection footstepCollection;
+    [SerializeField] private AnimationCurve m_SpeedCurve;
+
+
+    // Start is always called after any Awake functions.
+    void Start()
 	{
 		// Set up the references.
 		jumpBool = Animator.StringToHash("Jump");
@@ -94,7 +217,8 @@ public class MoveBehaviour : GenericBehaviour
 				jump = false;
 				behaviourManager.GetAnim.SetBool(jumpBool, false);
 				behaviourManager.UnlockTempBehaviour(this.behaviourCode);
-			}
+                PlayLanding();
+            }
 		}
 	}
 
@@ -186,4 +310,21 @@ public class MoveBehaviour : GenericBehaviour
 		GetComponent<CapsuleCollider>().material.dynamicFriction = 0.6f;
 		GetComponent<CapsuleCollider>().material.staticFriction = 0.6f;
 	}
+
+    public void PlayFootstep()
+    {
+        FootstepCollection.Audio audio = footstepCollection.GetFootstep();
+        m_Source.pitch = footstepCollection.PitchVariation();
+        m_Source.volume = footstepCollection.VolumeVariation(audio);
+        m_Source.PlayOneShot(audio.clip);
+    }
+
+    public void PlayLanding()
+    {
+        FootstepCollection.Audio audio = footstepCollection.GetLanding();
+        m_Source.pitch = footstepCollection.PitchVariation();
+        m_Source.volume = footstepCollection.VolumeVariation(audio);
+        m_Source.PlayOneShot(audio.clip);
+    }
+
 }
