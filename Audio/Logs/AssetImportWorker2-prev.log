@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32661 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 32718 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\2022.3.44f1\Editor\Unity.exe
+D:\2022.3.44f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/pau/source/repos/lab4/AudioProject/Audio
+D:/AudioProject/Audio
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-56597
-Successfully changed project path to: C:/Users/pau/source/repos/lab4/AudioProject/Audio
-C:/Users/pau/source/repos/lab4/AudioProject/Audio
+50002
+Successfully changed project path to: D:/AudioProject/Audio
+D:/AudioProject/Audio
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/pau/source/repos/lab4/AudioProject/Audio
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32220]  Target information:
+Player connection [15148]  Target information:
 
-Player connection [32220]  * "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 1225913411 [EditorId] 1225913411 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0A6QIEH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15148]  * "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 3720554311 [EditorId] 3720554311 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7UTMU88) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32220] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32220] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 12.46 ms, found 3 plugins.
+Player connection [15148] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15148] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 109.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/pau/source/repos/lab4/AudioProject/Audio/Assets
+[Subsystems] Discovering subsystems at path D:/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/AudioProject/Audio/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
-    Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.6094
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8125 MB
+    Driver:   32.0.13031.3015
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/2022.3.44f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Mono path[0] = 'D:/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007663 seconds.
-- Loaded All Assemblies, in  0.311 seconds
+Register platform support module: D:/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003676 seconds.
+- Loaded All Assemblies, in  1.091 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.221 seconds
-Domain Reload Profiling: 530ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 1395ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (92ms)
+	RebuildCommonClasses (194ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (693ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (691ms)
+			TypeCache.Refresh (689ms)
+				TypeCache.ScanAssembly (673ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (222ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (304ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (182ms)
+		SetupLoadedEditorAssemblies (253ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,113 +118,95 @@ Domain Reload Profiling: 530ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.578 seconds
+Symbol file data-000002821A687E70 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A687E70 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A1C0E30 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A6910E0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A1C0E30 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A6910E0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F77F1220 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A27E010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A1E2040 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A29FA20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F77F9230 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A29FA20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B497010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B4CFA20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B041490 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B076010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A2A7830 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A6985A0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B0BD630 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A3F4220 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.713 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.615 seconds
-Domain Reload Profiling: 1190ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1364ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (367ms)
-		LoadAssemblies (291ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (286ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (123ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (616ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (651ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (497ms)
+		SetupLoadedEditorAssemblies (487ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3140 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.7 KB). Loaded Objects now: 3608.
-Memory consumption went from 119.6 MB to 119.5 MB.
-Total: 3.004900 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.256000 ms MarkObjects: 2.394200 ms  DeleteObjects: 0.080400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.408 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.940 seconds
-Domain Reload Profiling: 1345ms
-	BeginReloadAssembly (143ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (941ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
+			BeforeProcessingInitializeOnLoad (62ms)
 			ProcessInitializeOnLoadAttributes (388ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3611.
-Memory consumption went from 118.7 MB to 118.7 MB.
-Total: 4.823300 ms (FindLiveObjects: 0.494700 ms CreateObjectMapping: 0.342300 ms MarkObjects: 3.934600 ms  DeleteObjects: 0.050700 ms)
+Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3609.
+Memory consumption went from 119.4 MB to 119.4 MB.
+Total: 3.005400 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.455200 ms  DeleteObjects: 0.104100 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -240,689 +222,865 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 159398.041641 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump
-  artifactKey: Guid(d2246bc17e63fe741a393377a91dd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump using Guid(d2246bc17e63fe741a393377a91dd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '15376b870e340290a33253c0c0e7bfd9') in 0.002440 seconds
+  Time since last request: 808.510379 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_08.wav
+  artifactKey: Guid(6e6c9769d9509db4e8d892892f70aa11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_08.wav using Guid(6e6c9769d9509db4e8d892892f70aa11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79680849b92c91d56e6f9a2764d21b9c') in 0.152883 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.117115 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run
-  artifactKey: Guid(6c971f6a2ecc4b14f8125f8c7bf37efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run using Guid(6c971f6a2ecc4b14f8125f8c7bf37efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '567ac648be0a6d7051e70e315e273cf3') in 0.000393 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_03.wav
+  artifactKey: Guid(7b4b6eb734482064c8c1e5fd45d4d76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_03.wav using Guid(7b4b6eb734482064c8c1e5fd45d4d76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db4313f563beedbe27412ac773b2f468') in 0.051594 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.454986 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk
-  artifactKey: Guid(b9217203089b1024eb52c025ed2b259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk using Guid(b9217203089b1024eb52c025ed2b259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f5903173b34e0e4871c09900460cf508') in 0.000383 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_03.wav
+  artifactKey: Guid(f85e18b3e969dac4bbfc7f6b18139932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_03.wav using Guid(f85e18b3e969dac4bbfc7f6b18139932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c19e7f585b89b23f557041208a45ff5') in 0.062078 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.210403 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_01.wav
-  artifactKey: Guid(e3edc2a270af5c04886ab9c5fa4fced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_01.wav using Guid(e3edc2a270af5c04886ab9c5fa4fced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '30d510296e845f539b5a978e16a0d637') in 0.089616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_04.wav
-  artifactKey: Guid(e702c6b7953d72f42a62778c969b44ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_04.wav using Guid(e702c6b7953d72f42a62778c969b44ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '468c749d7cf82f40ad0eda7cd142e930') in 0.014636 seconds
+  path: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_06.wav
+  artifactKey: Guid(866abdf3a931850498786581089be202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_06.wav using Guid(866abdf3a931850498786581089be202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c813aa1fc09c5d3bb42d09680eafebe5') in 0.057325 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_10.wav
-  artifactKey: Guid(1300a1f7bbbf3f140aee0da44ba85694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_10.wav using Guid(1300a1f7bbbf3f140aee0da44ba85694) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6cdd468fd63eeb85f2b1a59715773e91') in 0.012229 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_02.wav
+  artifactKey: Guid(3bd1b93317b7a3a49b13011cdaa64d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_02.wav using Guid(3bd1b93317b7a3a49b13011cdaa64d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51d2ee1a48b0480e34597075c61554ec') in 0.052990 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.407 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.948 seconds
-Domain Reload Profiling: 1353ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (238ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (949ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (491ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (402ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3624.
-Memory consumption went from 122.1 MB to 122.0 MB.
-Total: 4.145500 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.296900 ms MarkObjects: 3.439200 ms  DeleteObjects: 0.046300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 88.674089 seconds.
-  path: Assets/Skyden_Games/Low Poly Environment/Textures/Colors Water_Mat.mat
-  artifactKey: Guid(096e9f4de49b2cf4db9fbd5b8aa0a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyden_Games/Low Poly Environment/Textures/Colors Water_Mat.mat using Guid(096e9f4de49b2cf4db9fbd5b8aa0a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6e7fe954425ae5a3624d788424f9ec0d') in 0.076475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.783557 seconds.
-  path: Assets/Skyden_Games/Low Poly Environment/Textures/Colors_Mat 1.mat
-  artifactKey: Guid(94bb78d10a1f6b64e9e0249335d1acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyden_Games/Low Poly Environment/Textures/Colors_Mat 1.mat using Guid(94bb78d10a1f6b64e9e0249335d1acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6630c7d839dfb6f12c95e2371c6c148e') in 0.014239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 149.848241 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_02.wav
-  artifactKey: Guid(6608750bb84f23446a146d6a1529c03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_02.wav using Guid(6608750bb84f23446a146d6a1529c03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '894837986d45876925a8551f04c257ed') in 0.022820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_06.wav
-  artifactKey: Guid(1fb63af572f3ebb469e2d7709aaf8a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_06.wav using Guid(1fb63af572f3ebb469e2d7709aaf8a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3fd05c0c358331f2b73b26a21e76085a') in 0.016435 seconds
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Land_01.wav
+  artifactKey: Guid(5e94f3d51023c5446b59f52c71e0cade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Land_01.wav using Guid(5e94f3d51023c5446b59f52c71e0cade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b7ad4cdbf65d85be3f87f1967da500f') in 0.057049 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_09.wav
-  artifactKey: Guid(ed15a29e723b7214ea43525973cdb6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_09.wav using Guid(ed15a29e723b7214ea43525973cdb6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e385dac3b43a304f1e34271959ae9446') in 0.016563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_05.wav
-  artifactKey: Guid(fcbb5c4d4b88dab4196aa78093d897b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_05.wav using Guid(fcbb5c4d4b88dab4196aa78093d897b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ab46b194b68f471599b19579b480219d') in 0.013652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_07.wav
-  artifactKey: Guid(926831fad7b7b2d4e872a783e1dff180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_07.wav using Guid(926831fad7b7b2d4e872a783e1dff180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '080dd54f50f35a774e132b5594206990') in 0.014989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.633756 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_02.wav
-  artifactKey: Guid(18e761ff5ef14fd4588d9283fcc9b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_02.wav using Guid(18e761ff5ef14fd4588d9283fcc9b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7bfb845096a59e5be09fc171a119695c') in 0.013992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_39.wav
-  artifactKey: Guid(3fb042d8273dfd141955633820660a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_39.wav using Guid(3fb042d8273dfd141955633820660a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '87cc3ba676264575cfe5c0b4ca67b224') in 0.013676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_27.wav
-  artifactKey: Guid(ff032cb5e57bd114ea87189c2ed8b3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_27.wav using Guid(ff032cb5e57bd114ea87189c2ed8b3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4f40f743ac96926c66bf6766dbf8ea89') in 0.013459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_22.wav
-  artifactKey: Guid(5ad92c54c3f49654db8d62382e5f559b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_22.wav using Guid(5ad92c54c3f49654db8d62382e5f559b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2a6591e23fc8683b52bf811167be86c1') in 0.013649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_45.wav
-  artifactKey: Guid(74a0ecc6d5d37bf4f8fe4544dfcd9e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_45.wav using Guid(74a0ecc6d5d37bf4f8fe4544dfcd9e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5832169f4d6e178d7ca45ac8294f6746') in 0.013401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_49.wav
-  artifactKey: Guid(97b97fae0b55ce141bff2005c510492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_49.wav using Guid(97b97fae0b55ce141bff2005c510492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e4eb83eb32c5bccbae22266124778d09') in 0.015005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_20.wav
-  artifactKey: Guid(3ba5fb80a58d03741b65a691dc434897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_20.wav using Guid(3ba5fb80a58d03741b65a691dc434897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '463945175d79b2b16a91785b5e74846a') in 0.014529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_48.wav
-  artifactKey: Guid(9cd93e6b4948e0c4abc089546af87c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_48.wav using Guid(9cd93e6b4948e0c4abc089546af87c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '282a1d164ba6d3b9170132aa03276c19') in 0.014760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_33.wav
-  artifactKey: Guid(eb9d0826f01bad94293a3ca6fa1f8427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_33.wav using Guid(eb9d0826f01bad94293a3ca6fa1f8427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0d80fc98627bd0c91da5c4d8e8c51e2f') in 0.013885 seconds
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_34.wav
+  artifactKey: Guid(a6801ed1ae1ed5648ba823232d0fcdf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_34.wav using Guid(a6801ed1ae1ed5648ba823232d0fcdf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f9d358ae6a7eaf91d2654eef53c424f') in 0.052274 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_17.wav
-  artifactKey: Guid(6f344c93a9337684995c262534fa85f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_17.wav using Guid(6f344c93a9337684995c262534fa85f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '70647f5c5612117001eb1e7923c8452c') in 0.013772 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_10.wav
+  artifactKey: Guid(22dffeeb60f8846499a8c08a2c0e6f80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_10.wav using Guid(22dffeeb60f8846499a8c08a2c0e6f80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16786f2ed9cb5b7dbf87140cc96ac5f1') in 0.061883 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_16.wav
-  artifactKey: Guid(f3a60c89c8456614895e7e11520a19d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_16.wav using Guid(f3a60c89c8456614895e7e11520a19d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a989949c5bceb7eb4c38f0a8c6e7bbc6') in 0.013944 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_08.wav
+  artifactKey: Guid(eb491a4de6595a246bbef0f211e2bd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_08.wav using Guid(eb491a4de6595a246bbef0f211e2bd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2ce48f2ac144fe717802690fe3a0f71') in 0.043359 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_09.wav
+  artifactKey: Guid(0bc66974c41ff8c4fa15f46d21ad3548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_09.wav using Guid(0bc66974c41ff8c4fa15f46d21ad3548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6427c7973f3ab7ff89e15db014dbfeaf') in 0.042600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_12.wav
+  artifactKey: Guid(826b5ab8735d6ff4c9e018ef29045829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_12.wav using Guid(826b5ab8735d6ff4c9e018ef29045829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b35a5112976b3946e4efc7e9b46378eb') in 0.047235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_04.wav
+  artifactKey: Guid(6866bd26706082149a4be4b47f1e1b3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_04.wav using Guid(6866bd26706082149a4be4b47f1e1b3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5394143d406944243b8bd915c4262b1e') in 0.053113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_08.wav
+  artifactKey: Guid(db210683cc12f49488148d7e59a51aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_08.wav using Guid(db210683cc12f49488148d7e59a51aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae1ddce78c348cf763b4ec3b590d9ff4') in 0.046582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_04.wav
+  artifactKey: Guid(1241db8d81c902d4db1bc5e06ba500b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_04.wav using Guid(1241db8d81c902d4db1bc5e06ba500b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5f55014ff956f1e3abe94ec93a14a19') in 0.047557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_05.wav
+  artifactKey: Guid(524ca5d8ba6570f47a403855a9d2cf29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_05.wav using Guid(524ca5d8ba6570f47a403855a9d2cf29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e89980796db04e92790e572bbdcf89f') in 0.047693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_17.wav
+  artifactKey: Guid(64d4d5a88368ecf4e9d81d94341ac235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_17.wav using Guid(64d4d5a88368ecf4e9d81d94341ac235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c074b198f07ef7f818197c0eb4577a0b') in 0.050071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_11.wav
-  artifactKey: Guid(d3f3cc8ad058cad408e97b1875afec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_11.wav using Guid(d3f3cc8ad058cad408e97b1875afec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bedf5759517c3ad88544356c7b82027e') in 0.015135 seconds
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_03.wav
+  artifactKey: Guid(7cd697be0072bfc4882068307562c2a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_03.wav using Guid(7cd697be0072bfc4882068307562c2a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe5458c27a68bb63fa0de51fb8b82485') in 0.050276 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_15.wav
+  artifactKey: Guid(7ec804530ad09cd4093a5ef030cfc7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_15.wav using Guid(7ec804530ad09cd4093a5ef030cfc7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73e4ba9f6fc69d45e38ee66e98226822') in 0.048990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs
+  artifactKey: Guid(455241d876ac8b44d8a43bf97c726307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs using Guid(455241d876ac8b44d8a43bf97c726307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99a05c8bee9ddc8487ecf1e0ad94ff97') in 0.022049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_43.wav
+  artifactKey: Guid(55a810a67df804d4487e8f990523255b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_43.wav using Guid(55a810a67df804d4487e8f990523255b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '115eff5c965008b3ecd9eaee673bff08') in 0.050264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_20.wav
+  artifactKey: Guid(31ce2f4f55b79d743ae941e2bc3a8dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_20.wav using Guid(31ce2f4f55b79d743ae941e2bc3a8dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a1694e5ced5fb67858dcdbd08fb4e3e') in 0.048835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_01.wav
+  artifactKey: Guid(557e96b16076cb84285c90941906b44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_01.wav using Guid(557e96b16076cb84285c90941906b44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '631d7736b33d8a1d5a6118aec9a56a61') in 0.042030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_09.wav
-  artifactKey: Guid(56ea356e65429294f9098ef523fdb70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_09.wav using Guid(56ea356e65429294f9098ef523fdb70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '755d0cd0ea284ff74728ce7ade4aea90') in 0.015537 seconds
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_05.wav
+  artifactKey: Guid(8fa804ea73811dc408c5e1d86e6c922e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_05.wav using Guid(8fa804ea73811dc408c5e1d86e6c922e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bec8bfc71a1393318c25d399ae55e15a') in 0.049602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_03.wav
+  artifactKey: Guid(a61b7ab6f7e2e02448092c5fd131df52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_03.wav using Guid(a61b7ab6f7e2e02448092c5fd131df52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab6ee8034c3a1319262150c10bdef657') in 0.048030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_03.wav
+  artifactKey: Guid(5039e24f35fce8b4ea426f1543234bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_03.wav using Guid(5039e24f35fce8b4ea426f1543234bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'edcc10c2951eda7f189e1de2dbc4bdc6') in 0.049322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_02.wav
+  artifactKey: Guid(7713ba384a2a8f44ab2eb40dee9ddaea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_02.wav using Guid(7713ba384a2a8f44ab2eb40dee9ddaea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '536aba2220271de6f32cfd1f1b90ab98') in 0.100614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_14.wav
+  artifactKey: Guid(2e3cf5793eea2204cb2c8f93717c3938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_14.wav using Guid(2e3cf5793eea2204cb2c8f93717c3938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66a38d833bc8105fda61c33f2407415e') in 0.067465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_03.wav
+  artifactKey: Guid(158dda579f2238949af5b31b76fc9fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_03.wav using Guid(158dda579f2238949af5b31b76fc9fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '315a1a10303d46e0c20067fd6863afb2') in 0.067098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_04.wav
+  artifactKey: Guid(9da340c0b94731d4887cfa136e57ff09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_04.wav using Guid(9da340c0b94731d4887cfa136e57ff09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '62d751aaddf0b120324a02f40ab86c65') in 0.179491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_07.wav
+  artifactKey: Guid(d353df4fd68f2884488c5e7cbe1ebcb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_07.wav using Guid(d353df4fd68f2884488c5e7cbe1ebcb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a3f26ba8bab71a5e41637c545292374c') in 0.054293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_09.wav
+  artifactKey: Guid(0c1712eebdb3af2438eb4cd93140acc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_09.wav using Guid(0c1712eebdb3af2438eb4cd93140acc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe0f8de97d0d6167834d5029435bb8a1') in 0.056706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_02.wav
+  artifactKey: Guid(2518f7ac3fb5c094eb7f3494547dca64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_02.wav using Guid(2518f7ac3fb5c094eb7f3494547dca64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aa26a142a51273c54b77432f9842ef2a') in 0.054286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_02.wav
+  artifactKey: Guid(d82fc2cd4d9eb384ba34b3dc326990d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_02.wav using Guid(d82fc2cd4d9eb384ba34b3dc326990d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '492de712261fdc2f8308abbdebd1dd84') in 0.047711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_10.wav
+  artifactKey: Guid(bf5c0a922b0cd2347a738c1d0f1a782a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_10.wav using Guid(bf5c0a922b0cd2347a738c1d0f1a782a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51d30bcdee06d5260d42a0fee01aa8ea') in 0.048303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_10.wav
+  artifactKey: Guid(80dc5f2116a9e924daa171dd5fc9a66c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_10.wav using Guid(80dc5f2116a9e924daa171dd5fc9a66c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9626febbee7b309c120e7a5cc8fe77f5') in 0.043433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_05.wav
+  artifactKey: Guid(20018cf3e169edd4eab1801917df7e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_05.wav using Guid(20018cf3e169edd4eab1801917df7e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64063cd2632a1ffe982e47604e5c5caa') in 0.051137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_07.wav
+  artifactKey: Guid(c8a70ba7587aebd46a56ebb8006262f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_07.wav using Guid(c8a70ba7587aebd46a56ebb8006262f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8aa85ebfc17b2326b694151b0fc4ea46') in 0.042047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_12.wav
+  artifactKey: Guid(bd926afca0aa8ab48b8abfc15454bc3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_12.wav using Guid(bd926afca0aa8ab48b8abfc15454bc3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd7ec5e0bf3afe32c1a812384ac040f2') in 0.046824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_06.wav
+  artifactKey: Guid(14ae706fef2303e4cb71112dbd5d250b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_06.wav using Guid(14ae706fef2303e4cb71112dbd5d250b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad2da0f5c191cd5f55e0defd96f8a492') in 0.048822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_05.wav
+  artifactKey: Guid(8c2c6c300bd8fc441878f426377bec64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_05.wav using Guid(8c2c6c300bd8fc441878f426377bec64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bb9564cdad14c9489a9e61ffb8b7933') in 0.047243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_18.wav
+  artifactKey: Guid(f3f683944e6861645a16971f3f17ca40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_18.wav using Guid(f3f683944e6861645a16971f3f17ca40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18480a12e754b011f837e35817f742ea') in 0.048108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_06.wav
+  artifactKey: Guid(dfeacf04bb644374ab5ab503cb4eaff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_06.wav using Guid(dfeacf04bb644374ab5ab503cb4eaff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b3f299d24749ab55fb0aeb6e8208612') in 0.044434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rdPerson+Fly/Animations/Locomotion/jog_fwd.anim
+  artifactKey: Guid(e5bc3f026f85905469c9003b0efaddee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3rdPerson+Fly/Animations/Locomotion/jog_fwd.anim using Guid(e5bc3f026f85905469c9003b0efaddee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15adf40cd445744e936ffb3d8abba29b') in 0.028796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_02.wav
+  artifactKey: Guid(bd2143d05a8cf734ea23012e5c3e4dbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_02.wav using Guid(bd2143d05a8cf734ea23012e5c3e4dbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d92207324a175452fcd3f356063a273') in 0.045626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_09.wav
+  artifactKey: Guid(54cd8769272b7ca4c9a1386d106f621d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_09.wav using Guid(54cd8769272b7ca4c9a1386d106f621d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67fd4b0688fc24350aa5cbdd6bae5aef') in 0.047413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_26.wav
+  artifactKey: Guid(a1d0e2d83ca2030428f1c772f47b9087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_26.wav using Guid(a1d0e2d83ca2030428f1c772f47b9087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5214865e2d3dc40b5b05d1e744ab22a2') in 0.041920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_04.wav
+  artifactKey: Guid(c3f3efc1106f84643a38bd21f6826aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_04.wav using Guid(c3f3efc1106f84643a38bd21f6826aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89aa0541a9e1b5e7422a88c26839d630') in 0.060299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_07.wav
+  artifactKey: Guid(af104ebdf73bf7a4ba6013021dd458cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_07.wav using Guid(af104ebdf73bf7a4ba6013021dd458cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42d08d098b25c2ee191877ff8b0bfd9d') in 0.064155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_04.wav
+  artifactKey: Guid(caf48be4d869fe24f85866b95cdbe017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_04.wav using Guid(caf48be4d869fe24f85866b95cdbe017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9709c20aa5f9fe27222ad57862372e2') in 0.041650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_05.wav
+  artifactKey: Guid(7b6895e4d3b50784daa1c49222e8eac5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_05.wav using Guid(7b6895e4d3b50784daa1c49222e8eac5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00d8da3f615a7742275e7cbcb2ba1444') in 0.043922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_01.wav
+  artifactKey: Guid(505a015d5525e0442ae4a62d5bac304d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_01.wav using Guid(505a015d5525e0442ae4a62d5bac304d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b929271c58ad9832edc84fc51c06fe1') in 0.046923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_05.wav
+  artifactKey: Guid(a843d0038d0930149b2a4a6002937a10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_05.wav using Guid(a843d0038d0930149b2a4a6002937a10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59ba09a16452e6d1d01c4605c1d6c388') in 0.047516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_02.wav
+  artifactKey: Guid(0c65c34d499c17a42a643d5727eff438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_02.wav using Guid(0c65c34d499c17a42a643d5727eff438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '771c93a132c3bf52dfb4484827c40f9d') in 0.047632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Land_01.wav
+  artifactKey: Guid(bb5ec83ccc5c69f43b31f100278bff91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Land_01.wav using Guid(bb5ec83ccc5c69f43b31f100278bff91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a58df5ebf73480cdfe316cb1bd1f003c') in 0.051553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_08.wav
+  artifactKey: Guid(b91418e7e651a5741a14cd31af0f5ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_08.wav using Guid(b91418e7e651a5741a14cd31af0f5ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '438eb894ac24b2557d35d9bf1c5520c5') in 0.046713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rdPerson+Fly/Materials/env_GoldTile.mat
+  artifactKey: Guid(0d2e318bf98ad6144ae3ced352c1962c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3rdPerson+Fly/Materials/env_GoldTile.mat using Guid(0d2e318bf98ad6144ae3ced352c1962c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d3082650e71b3737a8fd9118ff49a11') in 0.031695 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_47.wav
-  artifactKey: Guid(6d1a50aa1ed16a645bfc3a480d77712c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_47.wav using Guid(6d1a50aa1ed16a645bfc3a480d77712c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0bbd0880b4510352d4976350e214cb2a') in 0.015883 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Start_02.wav
+  artifactKey: Guid(fcbaf164018fc614a9729400cf40f9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Start_02.wav using Guid(fcbaf164018fc614a9729400cf40f9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e9e5445ce41c42f428ff4b0f1a529a8') in 0.051004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_08.wav
+  artifactKey: Guid(d15f7338d693f0343843a6b9096d27f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_08.wav using Guid(d15f7338d693f0343843a6b9096d27f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '493ad9a6a31ad6e9dcc23ae55cc5f6c1') in 0.044449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_04.wav
+  artifactKey: Guid(e331a9e83f5b77e49bd9efba1b2c2fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_04.wav using Guid(e331a9e83f5b77e49bd9efba1b2c2fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04941f6480403e31654dfa5bc2052310') in 0.044411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Prefabs/Road 2 .prefab
+  artifactKey: Guid(c461097f0ee49f84aaa97f183d912cc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Prefabs/Road 2 .prefab using Guid(c461097f0ee49f84aaa97f183d912cc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a528a84f6e7c0207f2ee51149c86490d') in 0.043642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Prefabs/Cliff 4.prefab
+  artifactKey: Guid(4d09acfefa4b0e44388ef8e7322b9a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Prefabs/Cliff 4.prefab using Guid(4d09acfefa4b0e44388ef8e7322b9a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aff7a075ba4ed574c0ed885e14a245f8') in 0.032414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_04.wav
+  artifactKey: Guid(cb9aa4db4b3a12147bf2fe3d88fee270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_04.wav using Guid(cb9aa4db4b3a12147bf2fe3d88fee270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94af187345dcc88198e0a5569fb58c88') in 0.045022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_05.wav
+  artifactKey: Guid(2e832dbb2c7c9ba4e97fd3005fe850b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_05.wav using Guid(2e832dbb2c7c9ba4e97fd3005fe850b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8341f16e01491af10c5e92bcebb65a38') in 0.044478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Prefabs/Cliff 6.prefab
+  artifactKey: Guid(ae5ed9900fe9e3a4fb7d3f7c00cda1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Prefabs/Cliff 6.prefab using Guid(ae5ed9900fe9e3a4fb7d3f7c00cda1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77e61520f3dd753d7d3584927e7ff20b') in 0.037857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Prefabs/Car 2 .prefab
+  artifactKey: Guid(097f938ab30dad44eb0996f9121199a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Prefabs/Car 2 .prefab using Guid(097f938ab30dad44eb0996f9121199a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53ae737eab2bc2a24fdcbbd24600f512') in 0.021871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_02.wav
+  artifactKey: Guid(c41fb169b2991c247a5466e00faa6639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_02.wav using Guid(c41fb169b2991c247a5466e00faa6639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '784f06af6c40248403a86fe66a1c82d7') in 0.041743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_06.wav
+  artifactKey: Guid(f8e559768bed7ed4680ab0449da7ec3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_06.wav using Guid(f8e559768bed7ed4680ab0449da7ec3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03c054dc81e4903a1e949eab4c9e03bb') in 0.044577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Start_02.wav
+  artifactKey: Guid(db2281b9de1863f409d62f9edf69c6cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Start_02.wav using Guid(db2281b9de1863f409d62f9edf69c6cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54777744ec6e7d86cd0fdd35051abdb5') in 0.044858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Land_02.wav
+  artifactKey: Guid(c86476186f357d44eb470d68a2986520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Land_02.wav using Guid(c86476186f357d44eb470d68a2986520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7e8621bceb30b9ec2b42ec6b783bdd8') in 0.043410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_02.wav
+  artifactKey: Guid(16eb595cb84df9743b43927e6e11f487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_02.wav using Guid(16eb595cb84df9743b43927e6e11f487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c476d091c810f8eb4c752f9b943b6e6') in 0.045828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_07.wav
+  artifactKey: Guid(ee5109b2ca7428843a14b6a36dda384f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_07.wav using Guid(ee5109b2ca7428843a14b6a36dda384f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb181f54fc8c50bfcc70a1c07cd005c0') in 0.056545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Prefabs/Watch Tower .prefab
+  artifactKey: Guid(e66e47acabbcbae4693cd4edf04a45b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Prefabs/Watch Tower .prefab using Guid(e66e47acabbcbae4693cd4edf04a45b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b45d3222e3f0249a712d640852e810b7') in 0.021757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Textures/Colors_Mat.mat
+  artifactKey: Guid(4f2e6c00c35c1d94abf15453d511cadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Textures/Colors_Mat.mat using Guid(4f2e6c00c35c1d94abf15453d511cadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7a6c117848ada5d693b609ddac64e28') in 0.030260 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_24.wav
-  artifactKey: Guid(a9e685e1af34121498a651c484426703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_24.wav using Guid(a9e685e1af34121498a651c484426703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '30dee3fd154bb9aec3fa97aad177b9be') in 0.014592 seconds
+  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_01.wav
+  artifactKey: Guid(371c7554d1d165146a79898daa807134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_01.wav using Guid(371c7554d1d165146a79898daa807134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71343e762a1eb9797c11a99efee401c9') in 0.043099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_47.wav
+  artifactKey: Guid(6d1a50aa1ed16a645bfc3a480d77712c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_47.wav using Guid(6d1a50aa1ed16a645bfc3a480d77712c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccabc02b85e94adf9d06ab7ff460a17c') in 0.044552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_04.wav
+  artifactKey: Guid(4556f410625310c41b03e2f828e7962c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_04.wav using Guid(4556f410625310c41b03e2f828e7962c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d17afb0ac5a111cf27a2881425f0d9e') in 0.047603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Skyden_Games/Low Poly Environment/Prefabs/Mill .prefab
+  artifactKey: Guid(fc5c037b45f7cb24894a869b0cbb858e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skyden_Games/Low Poly Environment/Prefabs/Mill .prefab using Guid(fc5c037b45f7cb24894a869b0cbb858e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f17133ab2d029ac88c991af4a5b43d2b') in 0.023973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_13.wav
+  artifactKey: Guid(6259119f201fafa4ca80646eff6b4b1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_13.wav using Guid(6259119f201fafa4ca80646eff6b4b1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf1af1e11e8e9b43a99d0222dac19bc1') in 0.042671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_49.wav
+  artifactKey: Guid(97b97fae0b55ce141bff2005c510492e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_49.wav using Guid(97b97fae0b55ce141bff2005c510492e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3f2891c7fd64bd9872b4d589d064aa9') in 0.044589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_06.wav
+  artifactKey: Guid(3af6e561e364a274aa306461461c386b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_06.wav using Guid(3af6e561e364a274aa306461461c386b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee3f85cf3cfc8517a58431fab5081872') in 0.043509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_10.wav
+  artifactKey: Guid(f26cf9ded47cf0140957490a16f85acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_10.wav using Guid(f26cf9ded47cf0140957490a16f85acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1da4ddadb07c1c5248ec3eed50f7e9cf') in 0.042625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_07.wav
+  artifactKey: Guid(924e3e09c67130946a6d7b666e8b8b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_07.wav using Guid(924e3e09c67130946a6d7b666e8b8b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '738ff2f2c4ebe173fdad09894ae792cc') in 0.044690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_03.wav
+  artifactKey: Guid(352456aba9356534c84a656a5e94ce1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_03.wav using Guid(352456aba9356534c84a656a5e94ce1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42d1ee5b56973da9fb56f586bf227117') in 0.051819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.509885 seconds.
+  path: Assets/Audio/computer-humming-236384.mp3
+  artifactKey: Guid(1171d1fddf62c3643853235159ad4e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/computer-humming-236384.mp3 using Guid(1171d1fddf62c3643853235159ad4e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a0abffee0e9b04c46e6336eb719535c') in 0.073363 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.498973 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_02.wav
-  artifactKey: Guid(1d7e7e6569aab5a45a837f470eaddc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_02.wav using Guid(1d7e7e6569aab5a45a837f470eaddc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a2305ec9e0132d52d2e80b6f870d80a3') in 0.014453 seconds
+  Time since last request: 0.915585 seconds.
+  path: Assets/Audio/computer-humming-236384.mp3
+  artifactKey: Guid(1171d1fddf62c3643853235159ad4e0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/computer-humming-236384.mp3 using Guid(1171d1fddf62c3643853235159ad4e0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05b03d25f36d8150c84071a366d06f7e') in 0.023901 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_15.wav
-  artifactKey: Guid(3ec9ef3892d02044a9d62e412eb45ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_15.wav using Guid(3ec9ef3892d02044a9d62e412eb45ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'add7079f43357c233e4b2a7aff59d548') in 0.013986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_06.wav
-  artifactKey: Guid(f39f1d43c5b9fbf449e7b39d056e5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_06.wav using Guid(f39f1d43c5b9fbf449e7b39d056e5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cd837fc3a4933c175aec3c937085ff13') in 0.014676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_14.wav
-  artifactKey: Guid(b04914b5801123b4dafba88cbcb5bc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_14.wav using Guid(b04914b5801123b4dafba88cbcb5bc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b9253e0f0d8e48909816c0b7bb25aa4b') in 0.013616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.383 seconds
+Symbol file data-00000281F80BD010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282852B6CD0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224EAB020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C98030 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821BF39020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C98030 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C9EA40 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B59020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B63430 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821C3D3450 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B63430 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224F3A020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821D17A020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F8121890 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821C3D3450 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B497010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282242D6820 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282242D6820 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028285392020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821994E020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.420 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.961 seconds
-Domain Reload Profiling: 1340ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (961ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3660.
-Memory consumption went from 122.4 MB to 122.3 MB.
-Total: 3.898900 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.223900 ms MarkObjects: 3.367400 ms  DeleteObjects: 0.036600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.398 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.015 seconds
-Domain Reload Profiling: 1409ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (239ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1016ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3664.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 4.187900 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.350100 ms MarkObjects: 3.481000 ms  DeleteObjects: 0.035600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.442 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.111 seconds
-Domain Reload Profiling: 1549ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (263ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1111ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (602ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (492ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 7.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3667.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 2.709700 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.243800 ms  DeleteObjects: 0.033100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.369 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.893 seconds
-Domain Reload Profiling: 1258ms
-	BeginReloadAssembly (130ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (219ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (893ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3670.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 2.997400 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.186700 ms MarkObjects: 2.554900 ms  DeleteObjects: 0.038200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.370 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.874 seconds
-Domain Reload Profiling: 1240ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1405ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (169ms)
-		LoadAssemblies (220ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (265ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (874ms)
+	FinalizeReload (986ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
+		SetupLoadedEditorAssemblies (424ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (365ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3673.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 4.127100 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.284800 ms MarkObjects: 3.404900 ms  DeleteObjects: 0.064500 ms)
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3623.
+Memory consumption went from 122.2 MB to 122.2 MB.
+Total: 2.618000 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.073100 ms MarkObjects: 2.206600 ms  DeleteObjects: 0.037800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -934,59 +1092,333 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
+========================================================================
+Received Import Request.
+  Time since last request: 60.977460 seconds.
+  path: Assets/Audio/fire-sound-334130.mp3
+  artifactKey: Guid(c4153f36173734c4aa841d5f676f8877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/fire-sound-334130.mp3 using Guid(c4153f36173734c4aa841d5f676f8877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f9895abe60b8d207f4cae8961c36a0f') in 0.043675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 85.162934 seconds.
+  path: Assets/Audio/windy-day-23531.mp3
+  artifactKey: Guid(de6721cf2ab487b428221d905e4f960b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/windy-day-23531.mp3 using Guid(de6721cf2ab487b428221d905e4f960b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0222ca9b7a375e7c325801b997bb879c') in 0.012603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.361 seconds
+Symbol file data-00000282852AA010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F80FD4D0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A675130 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282243C0820 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B2CB010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B31F010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821BFA3020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B31F010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B329420 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B59020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B329420 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224F3A020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821D17A020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282852AA010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B59020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B497010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C20E20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C20E20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224AC4020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B2CB010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.376 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.903 seconds
-Domain Reload Profiling: 1261ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3626.
+Memory consumption went from 122.2 MB to 122.2 MB.
+Total: 2.797200 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.282600 ms  DeleteObjects: 0.036500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000002821A19D020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821CF1ECD0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A675130 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821C91E5A0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028285392020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219C0E330 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219C0E330 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A19D020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C20E20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B44B830 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7C20E20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224F3A020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821CCB2020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B44B830 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821A1A7430 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224A41010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821C551E20 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282852AA010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B57D010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028285392020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.375 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1167ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (220ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3629.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 2.801600 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.073800 ms MarkObjects: 2.371100 ms  DeleteObjects: 0.051200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file data-000002821A322030 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281F7A330A0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821D17A020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821CD7E830 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B57D010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B337030 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B337030 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B337030 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219E91720 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B341440 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B59020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B341440 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000282243D1380 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821CF4E020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B44B830 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219B59020 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002822450CE10 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821C3D3450 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028224FF2010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028219BA03B0 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002821B57D010 doesn't match image D:\AudioProject\Audio\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.371 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (227ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (11ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (903ms)
+	FinalizeReload (856ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (374ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (379ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3676.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 3.202600 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.222300 ms MarkObjects: 2.694400 ms  DeleteObjects: 0.033800 ms)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3632.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 2.983900 ms (FindLiveObjects: 0.435500 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.410600 ms  DeleteObjects: 0.039100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -998,132 +1430,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.369 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.907 seconds
-Domain Reload Profiling: 1273ms
-	BeginReloadAssembly (143ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (220ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (907ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (383ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3679.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 3.603400 ms (FindLiveObjects: 0.414300 ms CreateObjectMapping: 0.416200 ms MarkObjects: 2.735000 ms  DeleteObjects: 0.036200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.368 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.895 seconds
-Domain Reload Profiling: 1259ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (218ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (895ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3682.
-Memory consumption went from 122.6 MB to 122.6 MB.
-Total: 3.167500 ms (FindLiveObjects: 0.388600 ms CreateObjectMapping: 0.259400 ms MarkObjects: 2.467100 ms  DeleteObjects: 0.051600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Surface.cs: e6f608339e6b91c90f75d690cd07d3e0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cf1da1b4372fc6f630dc27b6e8f2fe71 -> 9c3c171485a006a24a867ece57aba6cf
